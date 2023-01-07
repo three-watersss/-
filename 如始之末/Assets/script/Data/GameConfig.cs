@@ -20,7 +20,7 @@ public class GameConfig : MonoBehaviour
             string[] tempArr = lines[i].Trim().Split('\t');
             for(int j=0;j<tempArr.Length;j++)
             {
-                dic.Add(title[j], tempArr);
+                dic.Add(title[j], tempArr[j]);
             }
             dataDic.Add(dic);
         }

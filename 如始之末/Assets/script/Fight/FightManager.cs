@@ -21,8 +21,12 @@ public class FightManager : FightUnit
     public FightUnit fightUnit;//战斗单元
     public int MaxHp;//最大生命值
     public int CurHp;//当前生命值
+
     public int MaxPowerCount;//最大义肢能量
     public int CurPowerCount;//当前义肢能量
+
+    public int MaxPs;//最大体力值
+    public int CurPs;//当前体力值
     //初始化
     public void Init()
     {
@@ -30,6 +34,8 @@ public class FightManager : FightUnit
         CurHp = 100;
         MaxPowerCount = 10;
         CurPowerCount = 10;
+        MaxPs = 100;
+        CurPs = 100;
 
     }
     private void Awake()
