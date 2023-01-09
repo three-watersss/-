@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro.EditorUtilities;
 using UnityEngine;
-using DG.Tweening;
 //ui管理器
 public class UIManager : MonoBehaviour
 {
@@ -101,9 +100,5 @@ public class UIManager : MonoBehaviour
         obj.transform.SetAsFirstSibling();//设置在父级的最后一位
         return obj;
     }
-    //提示界面
-    public void ShowTip(string msg.Color,System.Action.callback=null)
-    {
 
-    }
 }

@@ -7,6 +7,5 @@ public class Fight_PlayerTrun : FightUnit
     public override void Init()
     {
         Debug.Log("playerTime");
-        UIManager.Instance.showtips
     }
 }
