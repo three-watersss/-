@@ -16,6 +16,8 @@ public class FightInit : FightUnit
         FightCardManager.Instance.Init();
         //初始化战斗数值
         FightManager.Instance.Init();
+        //切换到玩家回合
+        FightManager.Instance.ChangeType(FightType.Player);
     
     }
     public override void OnUpdate()

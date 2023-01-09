@@ -6,10 +6,7 @@ public class Fight_PlayerTrun : FightUnit
 {
     public override void Init()
     {
-        
-     }
-    public override void OnUpdate()
-    {
-        
+        Debug.Log("playerTime");
+        UIManager.Instance.showtips
     }
 }
